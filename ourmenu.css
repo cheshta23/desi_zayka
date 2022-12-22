@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=Lemonada:wght@500&family=Oswald:wght@500&family=Playball&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(23, 103, 156);
+    
+}
+.h-primary{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+text-align: center;
+padding: 10px auto;
+font-size: 30px;
+margin: 28px;
+text-decoration: underline;
+}
+.block{
+display: inline-block;
+
+margin-left: 200px;
+}
+.subhead{
+    font-size: 26px;
+margin: 34px 0px;
+color: white;
+border-bottom: 2px solid white;
+border-top: 2px solid;
+font-family: 'Lemonada', cursive;
+}
+.items{
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+}
+.items>img{
+    height: 100px;
+    width: 150px;
+    border: 2px dotted white;
+}
+.para{
+    font-family: 'Playball', cursive;
+    font-size: 22px;
+    margin-left: 100px;
+    color: white;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=Lemonada:wght@500&family=Playball&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background: rgb(255, 255, 255,0.5) url("images/menubg.jpg") no-repeat center center/cover ;
+    background-blend-mode: lighten;
+}
+.h-primary{
+    font-size: 100px;
+text-align: center;
+display: block;
+background-color: rgb(255, 225, 187);
+color: rgb(40, 16, 135);
+font-family: 'Bree Serif', serif;
+}
+img{
+    display: block;
+margin: 51px auto;
+
+}
+.content{
+    font-family: 'Playball', cursive;
+    text-align: center;
+background-color: rgb(208, 192, 231);
+margin: 35px auto;
+justify-content: center;
+justify-items: center;
+padding: 10px;
+font-size: 22px;
+color: rgb(0, 30, 128);
+}

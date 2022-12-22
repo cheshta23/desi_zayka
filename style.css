@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lemonada:wght@500&family=Playball&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+padding: 0px;
+}
+
+:root{
+--navbar-height:59px;
+
+}
+#logo{
+    
+margin: 0px 20px;
+margin-top: 5px;
+}
+#logo img{
+height: 59px;
+width: 59px;
+}
+#navbar{
+    
+display: flex;background-color: white;
+align-items: center;
+position: relative;
+position: sticky;
+top: 0px;
+}
+#navbar ul{
+    padding: 0 200px;
+display: flex;
+font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navbar ul li{ 
+list-style: none;
+
+}
+#navbar ul li a{
+display: block;
+color: black;
+font-size: 23px;
+text-decoration: none;
+padding: 0px 22px;
+
+}
+#navbar ul li a:hover{
+background-color: rgb(236, 235, 235);
+border-top: 3px solid brown;
+color: brown;
+}
+#home{
+display: flex;
+flex-direction: column;
+padding: 3px 200px;
+height:316px;
+justify-content: center;
+align-items: center;
+}
+#home::before{
+position: absolute;
+content: "";
+background: url('images/home-bg.jpg' )no-repeat center center/cover;
+height:1650px;
+top: 0px;
+left: 0px;
+width: 100%;
+z-index: -1;
+opacity: 0.89;
+}
+#home h1{
+color: maroon;
+text-align: center;
+/* font-family: 'Bree Serif', serif; */
+
+}
+#home p{
+    color: maroon;
+text-align: center;
+font-size: 1.5rem;
+font-family: 'Playball', cursive;
+}
+.content{
+ 
+    top: 124px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+    width: 80%;
+    padding: 20px 70px;
+    padding-bottom: 46px;
+    border: 3px dotted brown;
+}
+.h-primary{
+    font-size: 67px;
+    font-family: 'Lemonada', cursive;
+    
+}
+.new{
+    position: absolute;
+top: 716px;
+display: block;
+width: 100%;
+background-color: rgba(250, 148, 34, 0.45);
+}
+.h-secondary{
+    font-family: 'Bebas Neue', cursive;
+font-size: 62px;
+padding: 9px 0px;
+text-align: center;
+color: white;
+}
+.new-dish{
+    width: 80%;
+    background: rgba(255, 250, 247, 0.61);
+    margin: 39px auto;
+    padding: 12px;
+display: flex;
+}
+.dish{
+    margin: auto;
+    font-family: 'Playball', cursive;
+    font-size: 28px;
+    color: rgb(74, 16, 16);
+}
+.new-dish img{
+    height: 160px;
+    width: 160px;
+}
+.newdishes{
+    position: absolute;
+top: 870px;
+display: block;
+width: 100%;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.contact{
+    position: relative;
+    top:1275px;
+    display: flex;
+}
+.contactus{
+    width: 50%;
+}
+.h-tert{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.contactus>p{
+    margin: 13px 0px;
+    text-align: center;
+    font-family:'Bebas Neue', cursive;
+    font-size: 20px;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    row-gap: 12px;
+    column-gap: 15px;
+}
+.formelt{
+    font-family: 'Bree Serif', serif;
+    padding: 12px 12px;
+}
+.formelt input{
+    outline: none;
+    border: none;
+border-bottom: 2px solid black;
+}
+.submitbtn{
+    padding-top: 30px;
+    margin: 0 20px;
+}
+.btn{
+    height: 20px;
+    width: 80px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.open{
+    text-align: center;
+padding: -2px 0px;
+margin: 12px;
+font-family: 'Bree Serif', serif;
+}
+.open img{
+    height: 48px;
+    width: 108px;
+}
+.footer{
+    position: relative;
+top: 1270px;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.65);
+color: white;
+padding: 6px;
+}
